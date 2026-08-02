@@ -1,4 +1,5 @@
 # Changelog
 
-## v1.0.4
+## v1.1.0
 - Bản phát hành hiện tại.
+- Bổ sung bản dịch các app hệ thống
