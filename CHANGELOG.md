@@ -1,2 +1,3 @@
-# v1.1.8
-- Add app gallery
+# v1.2.0
+- Thêm app Downloads,
+- Fix văng app tối ưu overlay 
