@@ -1,4 +1,4 @@
-name: Auto Release
+name: Tự động phát hành
 
 on:
   push:
@@ -46,10 +46,10 @@ jobs:
           sed -i "s/^version=.*/version=${NEW_VERSION}/" module.prop
           sed -i "s/^versionCode=.*/versionCode=${NEW_CODE}/" module.prop
 
-          # update update.json
+          # update update.json — static link, always points to newest release
           REPO="${GITHUB_REPOSITORY}"
           ZIP_NAME="DTINH-Overlay.zip"
-          ZIP_URL="https://github.com/${REPO}/releases/download/${NEW_BASE}/${ZIP_NAME}"
+          ZIP_URL="https://github.com/${REPO}/releases/latest/download/${ZIP_NAME}"
 
           sed -i "s#\"version\": \".*\"#\"version\": \"${NEW_VERSION}\"#" update.json
           sed -i "s#\"versionCode\": [0-9]*#\"versionCode\": ${NEW_CODE}#" update.json
