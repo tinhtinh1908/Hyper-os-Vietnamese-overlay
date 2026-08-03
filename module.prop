@@ -1,7 +1,7 @@
 id=dtinh_vietnamese_overlay
 name=DTinh Vietnamese Overlay
-version=v1.1.11
-versionCode=12
+version=v1.1.12
+versionCode=13
 author=DTinh
 description=Adds Vietnamese translations to Xiaomi HyperOS without other system modifications.
 updateJson=https://raw.githubusercontent.com/tinhtinh1908/Hyper-os-Vietnamese-overlay/main/update.json
