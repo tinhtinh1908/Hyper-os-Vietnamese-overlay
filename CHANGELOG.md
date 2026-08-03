@@ -1,2 +1,2 @@
-# v1.1.6
+# v1.1.7
 - Add app gallery
