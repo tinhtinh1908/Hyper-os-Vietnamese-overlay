@@ -1,13 +1,6 @@
 name: Tự động phát hành
 
 on:
-  push:
-    branches: [main]
-    paths-ignore:
-      - '.github/**'
-      - 'README.md'
-      - 'LICENSE'
-      - 'CHANGELOG.md'
   workflow_dispatch: {}
 
 permissions:
