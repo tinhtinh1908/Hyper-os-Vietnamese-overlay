@@ -1,3 +1,3 @@
-# v1.1.11
+# v1.1.12
 - Thêm app Downloads,
 - Fix văng app tối ưu overlay 
